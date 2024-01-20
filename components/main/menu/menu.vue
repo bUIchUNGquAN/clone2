@@ -29,30 +29,11 @@
       <div class="px-1 py-6">
         <div class="lg:grid grid-rows-7 gap-2 ">
           <p class="uppercase font-bold text-white ">oyunlar</p>
-          <div class="flex flex-cols gap-2  ">
-            <UAvatar src="https://logos-world.net/wp-content/uploads/2023/02/LoL-Symbol.png"   />
-            <p class="font-bold text-xm text-white cursor-pointer hover:text-black">League of Legends</p>
+          <div v-for="(x,index) in list" :key="index" class="flex flex-cols gap-2  ">
+            <UAvatar :src="x.imgrl"   />
+            <p class="font-bold text-xm text-white cursor-pointer hover:text-black">{{x.name}}</p>
           </div>
-          <div class="flex flex-cols gap-2  ">
-            <UAvatar src="https://cdn.tgdd.vn/Files/2018/03/23/1076619/fifa-online-4-featured_800x450.jpg"   />
-            <p class="font-bold text-xm text-white cursor-pointer hover:text-black">Fifa 2019</p>
-          </div>
-          <div class="flex flex-cols gap-2  ">
-            <UAvatar src="https://m.media-amazon.com/images/M/MV5BNzU2YTY2OTgtZGZjZi00MTAyLThlYjUtMWM5ZmYzOGEyOWJhXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg"   />
-            <p class="font-bold text-xm text-white cursor-pointer hover:text-black">Fortnite</p>
-          </div>
-          <div class="flex flex-cols gap-2  ">
-            <UAvatar src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Rocket_League_coverart.jpg"   />         
-             <p class="font-bold text-xm text-white cursor-pointer hover:text-black">Rocket League</p>
-          </div>
-          <div class="flex flex-cols gap-2 ">
-            <UAvatar src="https://play-lh.googleusercontent.com/uJM2tbls8q1eNjHN-MYWBAo5ckmNgHXTFnGSUWSkJyEr40H-WFgka0tvFiTFNG4bOJi2"/>
-            <p class="font-bold text-xm text-white cursor-pointer hover:text-black">Teamfight Tactics</p>
-          </div>  
-          <div class="flex flex-cols gap-2 ">
-            <UAvatar src="https://assets-prd.ignimgs.com/2022/01/28/heroes-of-the-storm-button-crop-1643355577739.jpg"/>
-            <p class="font-bold text-xm text-white cursor-pointer hover:text-black">Heroes of the Storm</p>
-          </div>    
+              
         </div>
       </div>
       <div class="px-2">
@@ -82,3 +63,33 @@
     
   </div>
 </template>
+
+
+<script setup>
+  const list=ref([
+    {
+      imgrl:'https://logos-world.net/wp-content/uploads/2023/02/LoL-Symbol.png',
+      name:'League of Legends',
+    },
+    {
+      imgrl:'https://cdn.tgdd.vn/Files/2018/03/23/1076619/fifa-online-4-featured_800x450.jpg',
+      name:'Fifa 2019',
+    },
+    {
+      imgrl:'https://m.media-amazon.com/images/M/MV5BNzU2YTY2OTgtZGZjZi00MTAyLThlYjUtMWM5ZmYzOGEyOWJhXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg',
+      name:'Fortnite',
+    },
+    {
+      imgrl:'https://upload.wikimedia.org/wikipedia/commons/e/e0/Rocket_League_coverart.jpg',
+      name:'Rocket League',
+    },
+    {
+      imgrl:'https://play-lh.googleusercontent.com/uJM2tbls8q1eNjHN-MYWBAo5ckmNgHXTFnGSUWSkJyEr40H-WFgka0tvFiTFNG4bOJi2',
+      name:'Teamfight Tactics',
+    },
+    {
+      imgrl:'https://assets-prd.ignimgs.com/2022/01/28/heroes-of-the-storm-button-crop-1643355577739.jpg',
+      name:'Heroes of the Storm',
+    },
+  ])
+</script>

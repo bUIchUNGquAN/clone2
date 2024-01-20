@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <img src="/assets/img/body.jpg" class="opacity-50 "/>
+    <img src="/assets/img/body.jpg" class="opacity-50 w-100% "/>
     <div class="lg:grid grid-rows-4 gap-4 flex flex-wrap ">
       <div class="absolute top-[25%] left-[10%] grid grid-rows-1 gap-3">
 
@@ -15,14 +15,12 @@
       </div>
       <div class="lg:py-2 grid grid-rows-1 gap-5 absolute top-[70%] left-[10%]">
         <p class="font-bold text-white xm:text-2xl">Populer Turnmuvalar</p>
-        <div class="sm:flex flex-wrap items-center justify-between gap-5 ">
+        <div class="sm:flex flex-cols items-center justify-between gap-10 ">
 
-          <MainBodyItems v-for="x in list" ></MainBodyItems>
+          <MainBodyItems ></MainBodyItems>
+          <MainBodyItems2 />
         </div>
       </div>
     </div>
   </div>
 </template>
-<script setup>
-  const list= ref('1,2')
-</script>
