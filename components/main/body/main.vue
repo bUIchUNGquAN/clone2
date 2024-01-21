@@ -34,7 +34,7 @@
       </div>
       <div class="lg:py-2 grid grid-rows-1 gap-5 absolute top-[70%] left-[10%]">
         <p class="font-bold text-white xm:text-2xl">Populer Turnuvalar</p>
-        <div class="sm:flex flex-cols items-center justify-between gap-6">
+        <div class="sm:flex flex-wrap items-center justify-between gap-6">
           <div class="flex-1 inline-flex">
             <MainBodyItems></MainBodyItems>
           </div>

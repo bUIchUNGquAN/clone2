@@ -1,7 +1,7 @@
 <template>
   <div class="bg-slate-500">
     <!-- main -->
-    <div class="lg:w-full bg-slate-800 rounded-lg shadow-lg mx-auto">
+    <div class="lg:w-[90%] bg-slate-800 rounded-lg shadow-lg mx-auto">
       <MainHead></MainHead>
       <!-- menu -->
       <div class="lg:flex flex-cols">

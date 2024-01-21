@@ -1,10 +1,10 @@
 <template>
   <div class="rounded-lg bg-slate-700 h-[150px] relative">
     <UButton class="absolute left-[44%] top-[-6%]">
-      <UIcon name="i-bx-knife" dynamic></UIcon>
+      <UIcon name="i-material-symbols:swords-outline" dynamic></UIcon>
     </UButton>
 
-    <div class="lg:flex flex-rows py-12 px-10 relative">
+    <div class="lg:grid grid-cols-3 py-12 px-10 relative">
       <!-- User 1 -->
       <div class="lg:grid grid-cols-1 gap-4 items-center">
         <img
@@ -15,10 +15,9 @@
         <p class="text-sm font-bold text-white">Chapas</p>
       </div>
 
-      <!-- Knives -->
-      <div class="flex items-center scale-150">
-        <UIcon name="i-bx-knife" dynamic color="white" class="rotate-180" />
-        <UIcon name="i-bx-knife" dynamic color="white" class="rotate-90" />
+      <div class="lg:grid grid-rows-1 gap-4 items-center">
+        <UIcon name="i-material-symbols:swords-outline" dynamic color="white" />
+        <p class="text-sm font-bold text-white">1<span>vs</span>1</p>
       </div>
 
       <!-- User 2 -->
@@ -33,3 +32,4 @@
     </div>
   </div>
 </template>
+<script></script>
