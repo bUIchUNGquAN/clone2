@@ -5,7 +5,7 @@
         <div class="lg:grid grid-rows-6 gap-4">
           <p class="uppercase font-bold text-white">menu</p>
           <div class="sm:flex flex-cols gap-2">
-            <UIcon name="i-bx-cake" dynamic color="white" class="w-4 h-4" />
+            <UIcon name="i-bx-cake" dynamic color="white" class="w-6 h-6" />
             <p
               class="font-bold text-xm text-white cursor-pointer hover:text-black"
             >

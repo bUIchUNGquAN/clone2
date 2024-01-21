@@ -5,15 +5,15 @@
       <MainHead></MainHead>
       <!-- menu -->
       <div class="lg:flex flex-cols">
-        <div class="lg:w-1/5 bg-slate-900">
+        <div class="sm:w-1/5 bg-slate-900">
           <MainMenu></MainMenu>
         </div>
         <!-- body -->
-        <div class="grow lg:w-2/4 bg-slate-700">
+        <div class="md:grow sm:w-2/4 bg-slate-700">
           <MainBodyMain></MainBodyMain>
         </div>
         <!-- chat -->
-        <div class="lg:w-1/5 bg-slate-900 lg:float-left">
+        <div class="sm:w-1/5 bg-slate-900 lg:float-left">
           <MainChatfienChat></MainChatfienChat>
         </div>
       </div>

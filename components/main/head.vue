@@ -110,6 +110,7 @@ const handleSearch = () => {
     loading.value = false;
   }, 2000);
 };
+
 // show thong bao
 const notificationVisible = ref(false);
 const showNotification = () => {
