@@ -19,7 +19,7 @@
                 </div>   
             </li>   
         </div>
-        <div class="container relative lg:py-2 sm:px-1">
+        <div class="container mx-auto lg:py-2 sm:px-1">
             <MainChatfienItemsSolo/>
         </div>
         <div class="sm:py-5 px-3 ">
@@ -35,7 +35,7 @@
                         </div>
                     </p>    
                     <p class="text-gray-400 text-sm italic "> 2 Daika once</p>
-                    <p class="text-slate-300 sm:text-sm leading-6  ">bak cevirdi suan gordun mu suan cevirdi :ddd</p>  
+                    <p class="text-slate-300 sm:text-sm text-white leading-6  ">bak cevirdi suan gordun mu suan cevirdi :ddd</p>  
                 </div>              
             </div>
             <div class="sm:py-2 lg:flex flex-cols gap-3">
@@ -50,7 +50,7 @@
                         </div>
                     </p>    
                     <p class="text-gray-400 text-sm italic "> 2 Daika once</p>
-                    <p class="text-slate-300 sm:text-sm leading-6  ">bak cevirdi suan gordun mu suan cevirdi :ddd</p>  
+                    <p class="text-slate-300 sm:text-sm text-white leading-6  ">bak cevirdi suan gordun mu suan cevirdi :ddd</p>  
                 </div>              
             </div>
             <div class="lg:py-1 lg:flex flex-cols gap-3">
@@ -64,7 +64,7 @@
                 </div>              
             </div>
         </div>
-        <div class="container relative lg:py-2 sm:px-1">
+        <div class="container mx-auto lg:py-2 sm:px-1">
             <MainChatfienItemsSolo/>
         </div>
     </div>

@@ -8,22 +8,25 @@
             :src="x.imgUrl"
             alt=""
           />
+          <UButton label="Pc cone" class="absolute top-[20%] left-[73%]"
+            >UCRETRI</UButton
+          >
           <UButton
             label="Pc cone"
             color="red"
-            class="absolute top-[40%] left-[4%]"
-            >Pc</UButton
+            class="absolute top-[40%] left-[73%]"
+            >Ps4</UButton
           >
         </div>
         <div
-          class="w-12 h-14 bg-slate-800 absolute top-[20%] left-[22%] rounded-lg"
+          class="w-12 h-14 bg-slate-800 absolute top-[20%] left-[90%] rounded-lg"
         >
           <p class="text-white font-bold leading-6 text-center">
             21 <span class="md:text-sm"> Diem</span>
           </p>
         </div>
         <div
-          class="w-12 h-6 bg-slate-800 absolute top-[38%] left-[22%] rounded-lg"
+          class="w-12 h-6 bg-slate-800 absolute top-[38%] left-[90%] rounded-lg"
         >
           <p class="text-white text-sm font-bold leading-6 text-center">
             19.00
@@ -50,7 +53,7 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-cols absolute left-[3%]">
+    <div class="flex flex-cols absolute left-[70%]">
       <MainBodyOnline />
     </div>
   </div>
